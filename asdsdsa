@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>
+Fero
+</title>
+<meta name="description" content="-you can login to fero- edit, share, comment & like on images, videos & stories">
+<meta name="auther" content="feras shita">
+<meta http-equiv="refresh" content="3600">
+<meta name="copyright"content="all copy is protacted by fero inderustry">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="keywords" content="fero,fero account,feras,social media,feras shita,feras rida,fero email,f,fero.com,fero sh, fero home,feroe">
+<meta charset="UTF-8">
+<meta name="theme-color" content="#000000">
+<meta name="msapplication-navbutton-color" content="#000000">
+<meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+<link rel="icon" type="image/ico" href="C:\xampp\htdocs\feroo\images\avatar.ico">
+<style>
+button{
+background-color:#00CCFF;
+width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+	font-size: 17px;
+    font-family: Raleway;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+{
+	box-sizing: border-box;
+}
+body {
+	background-color: #f1f1f1;
+}
+h1 {
+	text-align: center;
+	font-family: "Brush Script MT";
+}
+h3 {
+	text-align: center;
+}
+a {
+	color: #0099FF;
+}
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+	font-size: 17px;
+	font-family: Raleway;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+	font-size: 17px;
+	font-family: Raleway;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+	font-size: 17px;
+	font-family: Raleway;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+	font-size: 17px;
+	font-family: Raleway;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+input[type=tel] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+	font-size: 17px;
+	font-family: Raleway;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+input[type=submit] {
+	background-color:#00CCFF;
+	text-align: center;
+	width: 50%;
+	color: #FFFFFF;
+    padding: 12px 20px;
+    margin: 8px 0;
+	font-size: 17px;
+	font-family: Raleway;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+input[type=button] {
+	background-color:#00CCFF;
+	text-align: center;
+	width: 50%;
+	color: #FFFFFF;
+    padding: 12px 20px;
+    margin: 8px 0;
+	font-size: 17px;
+	font-family: Raleway;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	background-color:#E6E6E6;
+	height: 100%;
+	z-index: 9999;
+	opacity: .8;
+}
+</style>
+<script src="https://ajax.googleapis.comm/ajax/libs/jguery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+$(widow).load(function() {
+    $(".loader").fadeOut("slow");
+    });
+</script>
+</head>
+<body>
+<h1>Fero</h1>
+<form action="Fero.com/home" enctype="multipart/form-data" target="_self" id="face" method="post" name="face">
+<p align="center" translate="on">
+  <input type="text" placeholder="Yourphone number" name="uname">
+ <input type="password" placeholder="Password" id="myInput" name="upassword" required>
+</p>
+<p align="center" translate="on">show password
+<input type="checkbox" onclick="myFunction()">
+<a href="">forgot password?</a>
+  </p>
+<p align="center" translate="on">
+ <input type="submit" value="send" name="sub">
+</p>
+</form>
+<h3>Or</h3>
+<p align="center" translate="on">
+<a href="C:\Users\RIDA SHITA\Desktop\fero app\HTML FILES\fero objects\forn.html" target="_self" title="if you don't have an account"><input type="button" value="create an acount"></a>
+</p>
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+</body>
+</html>
